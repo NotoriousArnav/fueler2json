@@ -1,0 +1,35 @@
+Title:
+    css: 'div.timeline-header-block h4.timeline-title'
+    xpath: null
+    type: Text
+pow:
+    css: 'div.view-link a.d-flex'
+    xpath: null
+    type: Link
+description:
+    css: 'div.user-timeline-descriptions p:nth-of-type(2)'
+    xpath: null
+    type: Text
+date:
+    css: span.display-block-sm
+    xpath: null
+    type: Text
+tags:
+    css: 'div.work-keywords div.work-key-word-btn'
+    xpath: null
+    multiple: true
+    type: Text
+contributors:
+    css: 'div.timeline_sub_title ul.list-inline li a'
+    xpath: null
+    multiple: true
+    type: Link
+author:
+    css: 'ul.list-inline a.d-flex'
+    xpath: null
+    type: Link
+kudos:
+    css: 'span#previousKudos'
+    xpath: null
+    type: Text
+

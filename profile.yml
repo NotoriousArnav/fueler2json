@@ -1,0 +1,31 @@
+pfp:
+    css: 'div.user-dp-background img.mw-100'
+    xpath: null
+    type: Image
+name:
+    css: h2.text-dark-blue
+    xpath: null
+    type: Text
+bio:
+    css: p.text-gray-para
+    xpath: null
+    type: Text
+Skills:
+    css: 'div.user-skills div.d-flex'
+    xpath: null
+    type: Text
+links:
+    css: 'div.user-social-link div.d-flex a'
+    xpath: null
+    multiple: true
+    type: Link
+cc:
+    css: 'div.mr-3 span.text-dark-blue'
+    xpath: null
+    type: Text
+colabs:
+    css: 'div.user-collaborator-dp a'
+    xpath: null
+    multiple: true
+    type: Link
+
